@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact - Ryu Nesta Nuriadi</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Anton&family=Poppins:wght@400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body class="bg-black text-gray-100">
+    <!-- Navigation -->
+    <nav class="fixed top-0 w-full bg-black bg-opacity-95 backdrop-blur-md z-50 border-b border-gray-800">
+        <div class="site-nav max-w-[1600px] mx-auto px-6 py-4 flex justify-between items-center">
+            <a href="index.html" class="site-brand text-amber-500">
+                RYU NESTA NURIADI
+            </a>
+            <ul class="hidden md:flex gap-10 lg:gap-12 items-center">
+                <li><a href="index.html" class="nav-link">Home</a></li>
+                <li><a href="about.html" class="nav-link">About</a></li>
+                <li><a href="credentials.html" class="nav-link">Credentials</a></li>
+                <li><a href="projects.html" class="nav-link">Projects</a></li>
+                <li><a href="contact.html" class="nav-link active">Contact</a></li>
+            </ul>
+            <div class="md:hidden">
+                <button id="menu-btn" class="text-amber-500 hover:text-amber-400">
+                    <svg class="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h16M4 18h16"></path>
+                    </svg>
+                </button>
+            </div>
+        </div>
+        <!-- Mobile Menu -->
+        <div id="mobile-menu" class="hidden md:hidden bg-black border-t border-gray-800">
+            <ul class="flex flex-col gap-4 p-6">
+                <li><a href="index.html" class="nav-link">Home</a></li>
+                <li><a href="about.html" class="nav-link">About</a></li>
+                <li><a href="credentials.html" class="nav-link">Credentials</a></li>
+                <li><a href="projects.html" class="nav-link">Projects</a></li>
+                <li><a href="contact.html" class="nav-link">Contact</a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <!-- Contact Section -->
+    <section class="pt-32 pb-20 px-6 bg-black min-h-screen">
+        <div class="max-w-2xl mx-auto">
+            <h1 class="text-5xl md:text-6xl font-bold mb-12 text-white text-center">
+                GET IN TOUCH
+            </h1>
+            
+            <div class="grid md:grid-cols-2 gap-8 mb-12">
+                <!-- Email -->
+                <a href="mailto:ryunuriadi@gmail.com" class="group p-6 bg-gray-900 rounded-lg border border-gray-800 hover:border-amber-500 transition text-center">
+                    <svg class="w-12 h-12 mx-auto mb-3 text-amber-500 group-hover:scale-110 transition" fill="currentColor" viewBox="0 0 24 24">
+                        <path d="M20 4H4c-1.1 0-2 .9-2 2v12c0 1.1.9 2 2 2h16c1.1 0 2-.9 2-2V6c0-1.1-.9-2-2-2zm0 4l-8 5-8-5V6l8 5 8-5v2z"/>
+                    </svg>
+                    <h3 class="text-lg font-semibold mb-1">Email</h3>
+                    <p class="text-amber-500 font-semibold">ryunuriadi@gmail.com</p>
+                </a>
+
+                <!-- Social Media -->
+                <a href="https://www.instagram.com/ryu_n3sta" target="_blank" rel="noopener noreferrer" class="group p-6 bg-gray-900 rounded-lg border border-gray-800 hover:border-amber-500 transition text-center">
+                    <svg class="w-12 h-12 mx-auto mb-3 text-amber-500 group-hover:scale-110 transition" fill="currentColor" viewBox="0 0 24 24">
+                        <path d="M12 2.163c3.204 0 3.584.012 4.85.07 3.252.148 4.771 1.691 4.919 4.919.058 1.265.069 1.645.069 4.849 0 3.205-.012 3.584-.069 4.849-.149 3.225-1.664 4.771-4.919 4.919-1.266.057-1.645.069-4.849.069-3.204 0-3.584-.012-4.849-.069-3.259-.149-4.771-1.699-4.919-4.92-.058-1.265-.07-1.644-.07-4.849 0-3.204.013-3.583.07-4.849.149-3.227 1.664-4.771 4.919-4.919 1.266-.057 1.645-.069 4.849-.069zm0-2.163c-3.259 0-3.667.014-4.947.072-4.358.2-6.78 2.618-6.98 6.98-.059 1.281-.073 1.689-.073 4.948 0 3.259.014 3.668.072 4.948.2 4.358 2.618 6.78 6.98 6.98 1.281.058 1.689.072 4.948.072 3.259 0 3.668-.014 4.948-.072 4.354-.2 6.782-2.618 6.979-6.98.059-1.28.073-1.689.073-4.948 0-3.259-.014-3.667-.072-4.947-.196-4.354-2.617-6.78-6.979-6.98-1.281-.059-1.69-.073-4.949-.073zM5.838 12a6.162 6.162 0 1 1 12.324 0 6.162 6.162 0 0 1-12.324 0zM12 16a4 4 0 1 1 0-8 4 4 0 0 1 0 8zm4.965-10.322a1.44 1.44 0 1 1 2.881.001 1.44 1.44 0 0 1-2.881-.001z"/>
+                    </svg>
+                    <h3 class="text-lg font-semibold mb-1">Social Media</h3>
+                    <p class="text-amber-500 font-semibold">@ryu_n3sta</p>
+                </a>
+
+                <!-- Link Tree -->
+                <a href="https://linktr.ee/ryunuriadi" target="_blank" rel="noopener noreferrer" class="group p-6 bg-gray-900 rounded-lg border border-gray-800 hover:border-amber-500 transition text-center">
+                    <svg class="w-12 h-12 mx-auto mb-3 text-amber-500 group-hover:scale-110 transition" fill="currentColor" viewBox="0 0 24 24">
+                        <path d="M12 2C6.48 2 2 6.48 2 12s4.48 10 10 10 10-4.48 10-10S17.52 2 12 2zm0 18c-4.41 0-8-3.59-8-8s3.59-8 8-8 8 3.59 8 8-3.59 8-8 8zm3.5-9c.83 0 1.5-.67 1.5-1.5S16.33 8 15.5 8 14 8.67 14 9.5s.67 1.5 1.5 1.5zm-7 0c.83 0 1.5-.67 1.5-1.5S9.33 8 8.5 8 7 8.67 7 9.5 7.67 11 8.5 11zm3.5 6.5c2.33 0 4.31-1.46 5.11-3.5H6.89c.8 2.04 2.78 3.5 5.11 3.5z"/>
+                    </svg>
+                    <h3 class="text-lg font-semibold mb-1">Link Tree</h3>
+                    <p class="text-amber-500 font-semibold">linktr.ee/ryunuriadi</p>
+                </a>
+
+                <!-- Phone -->
+                <div class="p-6 bg-gray-900 rounded-lg border border-gray-800 text-center">
+                    <svg class="w-12 h-12 mx-auto mb-3 text-amber-500" fill="currentColor" viewBox="0 0 24 24">
+                        <path d="M17.707 12.293l-5.293-5.293a1 1 0 0 0-1.414 1.414L15.586 12l-4.586 4.586a1 1 0 1 0 1.414 1.414l5.293-5.293a1 1 0 0 0 0-1.414z"/>
+                    </svg>
+                    <h3 class="text-lg font-semibold mb-1">Phone Number</h3>
+                    <p class="text-amber-500 font-semibold">+62 878-7135-5830</p>
+                </div>
+            </div>
+
+            <!-- Contact Form -->
+            <form id="contact-form" class="bg-gray-900 p-8 rounded-lg border border-gray-800">
+                <div class="mb-6">
+                    <label for="name" class="block text-sm font-semibold text-gray-300 mb-2">Name</label>
+                    <input 
+                        type="text" 
+                        id="name" 
+                        name="name" 
+                        required
+                        class="w-full px-4 py-2 bg-gray-800 border border-gray-700 rounded-lg text-gray-100 placeholder-gray-500 focus:outline-none focus:border-amber-500 focus:ring-2 focus:ring-amber-500 focus:ring-opacity-20 transition"
+                        placeholder="Your name"
+                    >
+                </div>
+
+                <div class="mb-6">
+                    <label for="email" class="block text-sm font-semibold text-gray-300 mb-2">Email</label>
+                    <input 
+                        type="email" 
+                        id="email" 
+                        name="email" 
+                        required
+                        class="w-full px-4 py-2 bg-gray-800 border border-gray-700 rounded-lg text-gray-100 placeholder-gray-500 focus:outline-none focus:border-amber-500 focus:ring-2 focus:ring-amber-500 focus:ring-opacity-20 transition"
+                        placeholder="your@email.com"
+                    >
+                </div>
+
+                <div class="mb-6">
+                    <label for="message" class="block text-sm font-semibold text-gray-300 mb-2">Message</label>
+                    <textarea 
+                        id="message" 
+                        name="message" 
+                        required
+                        rows="5"
+                        class="w-full px-4 py-2 bg-gray-800 border border-gray-700 rounded-lg text-gray-100 placeholder-gray-500 focus:outline-none focus:border-amber-500 focus:ring-2 focus:ring-amber-500 focus:ring-opacity-20 transition resize-none"
+                        placeholder="Your message here..."
+                    ></textarea>
+                </div>
+
+                <button 
+                    type="submit"
+                    class="w-full px-6 py-3 bg-amber-500 hover:bg-amber-600 text-gray-900 font-semibold rounded-lg transition duration-300"
+                >
+                    Send Message
+                </button>
+
+                <div id="form-message" class="mt-4 text-center text-sm hidden"></div>
+            </form>
+        </div>
+    </section>
+
+    <script src="script.js"></script>
+</body>
+</html>
