@@ -32,10 +32,18 @@ A modern personal portfolio website built with semantic HTML, Tailwind CSS, and 
 ### Projects Section
 - **AI-Powered Student Dropout Risk Analysis**
   - Description: A web application using Random Forest and Logistic Regression to predict student dropout risk.
-  - GitHub link points to: `https://github.com/RyuuNesta`
+  - GitHub link: pending (placeholder marked with a TODO comment in `projects.html`)
 - **Responsive Portfolio Development**
   - Description: Technical development and UI/UX design of a responsive portfolio website.
-  - GitHub link points to: `https://github.com/RyuuNesta`
+  - GitHub link points to: `https://github.com/RyuuNesta/PersonalWebsite`
+- **Tasty Tutor - Educational Cooking Game**
+  - Description: A web-based educational cooking game built as a Multimedia Systems final project.
+  - GitHub link points to: `https://github.com/stefani-gifta/game-TastyTutor-2025`
+
+### Credentials Page
+- Education timeline and skills lists.
+- Languages: Bahasa Indonesia (Native Speaker), English (IELTS Score 7.5).
+- Certifications: Alibaba Cloud and Google Cloud (PDFs in `Certificates/`), and AWS Educate Introduction to Cloud 101 (verified on Credly).
 
 ### Contact Section
 - Working contact form with fields: Name, Email, Message
