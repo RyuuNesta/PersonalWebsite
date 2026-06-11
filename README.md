@@ -39,6 +39,10 @@ A modern personal portfolio website built with semantic HTML, Tailwind CSS, and 
 - **Tasty Tutor - Educational Cooking Game**
   - Description: A web-based educational cooking game built as a Multimedia Systems final project.
   - GitHub link points to: `https://github.com/stefani-gifta/game-TastyTutor-2025`
+- **Low-Light Image Enhancement with Zero-DCE**
+  - Description: A deep learning project using Zero-Reference Deep Curve Estimation to enhance low-light images and video.
+  - GitHub link points to: `https://github.com/RyuuNesta/Low-Light-Image-Enhancement`
+  - Paper link points to the Overleaf read-only project.
 
 ### Credentials Page
 - Education timeline and skills lists.
