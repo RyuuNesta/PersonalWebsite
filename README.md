@@ -46,7 +46,7 @@ A modern personal portfolio website built with semantic HTML, Tailwind CSS, and 
 
 ### Credentials Page
 - Education timeline and skills lists.
-- Languages: Bahasa Indonesia (Native Speaker), English (IELTS Score 7.5).
+- Languages: Bahasa Indonesia (Native Speaker), English (IELTS Score 7.0).
 - Certifications: Alibaba Cloud, Google Cloud, and IELTS (PDFs in `Certificates/`), and AWS Educate Introduction to Cloud 101 (verified on Credly).
 
 ### Contact Section
